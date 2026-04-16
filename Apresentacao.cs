@@ -13,7 +13,7 @@ namespace POO
     {
         // Objeto
      
-         Button btobj01  = new Button();
+         Button btobj01  = new Button() ;
  
         // toda classe tem um construtor
         public Apresentacao() {
