@@ -21,7 +21,7 @@ namespace POO
             this.Size = new Size(600, 600);
             btobj01.Text = " Clicar ";
             btobj01.Location = new Point(50, 50);
-            btobj01.Click += clicar;
+            btobj01.Click += clicar ;
             this.Controls.Add(btobj01);
         }
 
