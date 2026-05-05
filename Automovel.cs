@@ -37,5 +37,17 @@ namespace POO
              this.Marca = marca;
         }
 
+        public void Acelerar() {
+            Console.WriteLine("Acelerando o carro");
+        }
+        
+        public string Acelerar(string velocidade) {
+            return "Acelerando o carro a " + velocidade;
+        }
+
+        public int Acelerar(int velocidade) {
+            return velocidade + 10;
+        }
+
     }
 }
