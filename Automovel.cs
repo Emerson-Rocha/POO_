@@ -42,7 +42,7 @@ namespace POO
         }
         
         public string Acelerar(string velocidade) {
-            return "Acelerando o carro a " + velocidade;
+            return " Acelerando o carro a " + velocidade + " KM/H";
         }
 
         public int Acelerar(int velocidade) {
