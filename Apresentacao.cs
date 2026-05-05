@@ -21,6 +21,7 @@ namespace POO
         Label txtAno = new Label();
         Label txtVelocidade = new Label();
         Label txtModelo = new Label();
+        Label txtFrear = new Label();
 
         Button btobj01  = new Button() ;
         Button btobj02 = new Button();
@@ -62,18 +63,20 @@ namespace POO
             txtAno.Text = " Ano : " + carr01.Ano;
             txtVelocidade.AutoSize= true;
             txtVelocidade.Text = " Velocidade :  " + carr01.Acelerar(120).ToString(); ;
+            txtFrear.Text = " Frear : " + carr01.Frear();
 
             this.txtMarca.Location = new Point(100, 100);
             this.txtAno.Location = new Point(100, 130);
             this.txtModelo.Location = new Point(100, 150);          
             this.txtVelocidade.Location = new Point(100, 180);
+            this.txtFrear.Location = new Point(100, 210);
 
             // COLOCAR IMAGEM
             //img.Image = Image.FromFile(@"C:\Users\LabInfo\source\repos\'Emerson - Rocha'\POO_\IMG\uno.jpg");
             //img.SizeMode = PictureBoxSizeMode.AutoSize;
             //img.Width = 200;
             //img.Height = 150;
-           // this.img.Location = new Point(100, 200);
+            // this.img.Location = new Point(100, 200);
 
 
         }

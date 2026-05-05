@@ -49,5 +49,10 @@ namespace POO
             return velocidade + 10;
         }
 
+        public virtual string  Frear()
+        {
+             return "Freando o carro";
+        }
+
     }
 }
