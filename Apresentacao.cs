@@ -38,11 +38,13 @@ namespace POO
             btobj02.Text = " Herança ";
             btobj02.Location = new Point(50, 100);
             btobj02.Click += Heranca;
+            
+            txtFrear.AutoSize= true;
 
             // Control[] controles = new Control[] { txtMarca, btobj01 }; 
             //this.Controls.Add(btobj01);
             this.Controls.AddRange(new Control[] { txtMarca, btobj01, txtVelocidade
-            , txtTipo, txtAno, txtModelo, img, btobj02});
+            , txtTipo, txtAno, txtModelo, img, btobj02, txtFrear});
 
         }
 
@@ -62,7 +64,7 @@ namespace POO
             txtModelo.Text = "Tipo :" + carr01.Modelo;
             txtAno.Text = " Ano : " + carr01.Ano;
             txtVelocidade.AutoSize= true;
-            txtVelocidade.Text = " Velocidade :  " + carr01.Acelerar(120).ToString(); ;
+            txtVelocidade.Text = " Velocidade :  " + carr01.Acelerar(120).ToString(); 
             txtFrear.Text = " Frear : " + carr01.Frear();
 
             this.txtMarca.Location = new Point(100, 100);
@@ -86,6 +88,7 @@ namespace POO
             Carro Obj01Carro = new Carro("CHEVETTE", "SUV");
             txtMarca.Text = " Marca : " + Obj01Carro.Marca;
             txtTipo.Text = " Tipo : " + Obj01Carro.Modelo;
+            Obj01Carro.Frear();
         }
     }
 }

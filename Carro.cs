@@ -13,5 +13,11 @@ namespace POO
            this.Marca = marca;
             this.Modelo = tipo;
         }
+
+        // mesmo metodo da classe pai, mas com comportamento diferente
+        public override string Frear()
+        {
+            return "Freando o carro com ABS";
+        }
     }
 }
