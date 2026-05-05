@@ -36,12 +36,12 @@ namespace POO
 
             btobj02.Text = " Herança ";
             btobj02.Location = new Point(50, 100);
-            btobj02.Click += clicar;
+            btobj02.Click += Heranca;
 
             // Control[] controles = new Control[] { txtMarca, btobj01 }; 
             //this.Controls.Add(btobj01);
             this.Controls.AddRange(new Control[] { txtMarca, btobj01, txtVelocidade
-            , txtTipo, txtAno, txtModelo, img});
+            , txtTipo, txtAno, txtModelo, img, btobj02});
 
         }
 
