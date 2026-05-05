@@ -88,7 +88,7 @@ namespace POO
             Carro Obj01Carro = new Carro("CHEVETTE", "SUV");
             txtMarca.Text = " Marca : " + Obj01Carro.Marca;
             txtTipo.Text = " Tipo : " + Obj01Carro.Modelo;
-            Obj01Carro.Frear();
+            txtFrear.Text = Obj01Carro.Frear();
         }
     }
 }
